@@ -1598,14 +1598,14 @@ void mouseReleased() {
           if (clickCountB == 1 && blockSelectedB == false) {
             lv1B3Y = 175;
             blockSelectedB = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountB == 2 && blockSelectedB == false) {
             clickCountB = 0;
           } else if (clickCountB == 2 && blockSelectedB == true) { //if pressed twice in same spot
             lv1B3Y = 395;
             clickCountB = 0;
             blockSelectedB = false;
-            //place.play(1);
+            place.play(1);
           }
         }
         //If POST #2 has 1 DISK
@@ -1613,40 +1613,40 @@ void mouseReleased() {
           if (clickCountB == 1 && blockSelectedB == false) {
             lv1B1Y = 175;
             blockSelectedB = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountB == 2 && blockSelectedB == false) {
             clickCountB = 0;
           } else if (clickCountB == 2 && blockSelectedB == true) { //if pressed twice in same spot
             lv1B1Y = 425;
             clickCountB = 0;
             blockSelectedB = false;
-            //place.play(1);
+            place.play(1);
           }
         } else if (lv1B1X != 400 && lv1B2X == 400 && lv1B3X != 400) {
           if (clickCountB == 1 && blockSelectedB == false) {
             lv1B2Y = 175;
             blockSelectedB = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountB == 2 && blockSelectedB == false) {
             clickCountB = 0;
           } else if (clickCountB == 2 && blockSelectedB == true) { //if pressed twice in same spot
             lv1B2Y = 425;
             clickCountB = 0;
             blockSelectedB = false;
-            //place.play(1);
+            place.play(1);
           }
         } else if (lv1B1X != 400 && lv1B2X != 400 && lv1B3X == 400) {
           if (clickCountB == 1 && blockSelectedB == false) {
             lv1B3Y = 175;
             blockSelectedB = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountB == 2 && blockSelectedB == false) {
             clickCountB = 0;
           } else if (clickCountB == 2 && blockSelectedB == true) { //if pressed twice in same spot
             lv1B3Y = 425;
             clickCountB = 0;
             blockSelectedB = false;
-            //place.play(1);
+            place.play(1);
           }
         }
         //If post has no DISK
@@ -1667,40 +1667,40 @@ void mouseReleased() {
           if (clickCountC == 1 && blockSelectedC == false) {
             lv1B2Y = 175; //HERE CHANGE VARIABLES FOR REST
             blockSelectedC = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountC == 2 && blockSelectedC == false) {
             clickCountC = 0;
           } else if (clickCountC == 2 && blockSelectedC == true) { //if pressed twice in same spot
             lv1B2Y = 395;
             clickCountC = 0;
             blockSelectedC = false;
-            //place.play(1);
+            place.play(1);
           }
         } else if (lv1B1X == 650 && lv1B2X != 650 && lv1B3X == 650) {
           if (clickCountC == 1 && blockSelectedC == false) {
             lv1B3Y = 175;
             blockSelectedC = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountC == 2 && blockSelectedC == false) {
             clickCountC = 0;
           } else if (clickCountC == 2 && blockSelectedC == true) { //if pressed twice in same spot
             lv1B3Y = 395;
             clickCountC = 0;
             blockSelectedC = false;
-            //place.play(1);
+            place.play(1);
           }
         } else if (lv1B1X != 650 && lv1B2X == 650 && lv1B3X == 650) {
           if (clickCountC == 1 && blockSelectedC == false) {
             lv1B3Y = 175;
             blockSelectedC = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountC == 2 && blockSelectedC == false) {
             clickCountC = 0;
           } else if (clickCountC == 2 && blockSelectedC == true) { //if pressed twice in same spot
             lv1B3Y = 395;
             clickCountC = 0;
             blockSelectedC = false;
-            //place.play(1);
+            place.play(1);
           }
         }
         //If POST #3 has 1 DISK
@@ -1708,40 +1708,40 @@ void mouseReleased() {
           if (clickCountC == 1 && blockSelectedC == false) {
             lv1B1Y = 175;
             blockSelectedC = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountC == 2 && blockSelectedC == false) {
             clickCountC = 0;
           } else if (clickCountC == 2 && blockSelectedC == true) { //if pressed twice in same spot
             lv1B1Y = 425;
             clickCountC = 0;
             blockSelectedC = false;
-            //place.play(1);
+            place.play(1);
           }
         } else if (lv1B1X != 650 && lv1B2X == 650 && lv1B3X != 650) {
           if (clickCountC == 1 && blockSelectedC == false) {
             lv1B2Y = 175;
             blockSelectedC = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountC == 2 && blockSelectedC == false) {
             clickCountC = 0;
           } else if (clickCountC == 2 && blockSelectedC == true) { //if pressed twice in same spot
             lv1B2Y = 425;
             clickCountC = 0;
             blockSelectedC = false;
-            //place.play(1);
+            place.play(1);
           }
         } else if (lv1B1X != 650 && lv1B2X != 650 && lv1B3X == 650) {
           if (clickCountC == 1 && blockSelectedC == false) {
             lv1B3Y = 175;
             blockSelectedC = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountC == 2 && blockSelectedC == false) {
             clickCountC = 0;
           } else if (clickCountC == 2 && blockSelectedC == true) { //if pressed twice in same spot
             lv1B3Y = 425;
             clickCountC = 0;
             blockSelectedC = false;
-            //place.play(1);
+            place.play(1);
           }
         }
         //If post has no DISK
@@ -1753,9 +1753,9 @@ void mouseReleased() {
     }
     if (dist(cursorX, cursorY, dPReturnButtonX, dPReturnButtonY) <= (cursorRad+dPReturnRad)) {
       levelSelection();
-      //game.pause();
-      //goBack.play(1);
-      //mainMenu.loop();
+      game.pause();
+      goBack.play(1);
+      mainMenu.loop();
 
       //Resets variables
       lv1B1X = 150;
@@ -1784,14 +1784,14 @@ void mouseReleased() {
           if (clickCountA == 1 && blockSelectedA == false) {
             lv2B4Y = 175;
             blockSelectedA = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountA == 2 && blockSelectedA == false) {
             clickCountA = 0;
           } else if (clickCountA == 2 && blockSelectedA == true) { //if pressed twice in same spot
             lv2B4Y = 335;
             clickCountA = 0;
             blockSelectedA = false;
-            //place.play(1);
+            place.play(1);
           }
         }
         //If POST #1 has 3 DISKS
@@ -1799,53 +1799,53 @@ void mouseReleased() {
           if (clickCountA == 1 && blockSelectedA == false) {
             lv2B3Y = 175;
             blockSelectedA = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountA == 2 && blockSelectedA == false) {
             clickCountA = 0;
           } else if (clickCountA == 2 && blockSelectedA == true) { //if pressed twice in same spot
             lv2B3Y = 365;
             clickCountA = 0;
             blockSelectedA = false;
-            //place.play(1);
+            place.play(1);
           }
         } else if (lv2B1X == 150 && lv2B2X == 150 && lv2B3X != 150 && lv2B4X == 150) {
           if (clickCountA == 1 && blockSelectedA == false) {
             lv2B4Y = 175;
             blockSelectedA = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountA == 2 && blockSelectedA == false) {
             clickCountA = 0;
           } else if (clickCountA == 2 && blockSelectedA == true) { //if pressed twice in same spot
             lv2B4Y = 365;
             clickCountA = 0;
             blockSelectedA = false;
-            //place.play(1);
+            place.play(1);
           }
         } else if (lv2B1X == 150 && lv2B2X != 150 && lv2B3X == 150 && lv2B4X == 150) {
           if (clickCountA == 1 && blockSelectedA == false) {
             lv2B4Y = 175;
             blockSelectedA = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountA == 2 && blockSelectedA == false) {
             clickCountA = 0;
           } else if (clickCountA == 2 && blockSelectedA == true) { //if pressed twice in same spot
             lv2B4Y = 365;
             clickCountA = 0;
             blockSelectedA = false;
-            //place.play(1);
+            place.play(1);
           }
         } else if (lv2B1X != 150 && lv2B2X == 150 && lv2B3X == 150 && lv2B4X == 150) {
           if (clickCountA == 1 && blockSelectedA == false) {
             lv2B4Y = 175;
             blockSelectedA = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountA == 2 && blockSelectedA == false) {
             clickCountA = 0;
           } else if (clickCountA == 2 && blockSelectedA == true) { //if pressed twice in same spot
             lv2B4Y = 365;
             clickCountA = 0;
             blockSelectedA = false;
-            //place.play(1);
+            place.play(1);
           }
         }
         //If POST #1 has 2 DISKS
@@ -1853,79 +1853,79 @@ void mouseReleased() {
           if (clickCountA == 1 && blockSelectedA == false) {
             lv2B2Y = 175;
             blockSelectedA = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountA == 2 && blockSelectedA == false) {
             clickCountA = 0;
           } else if (clickCountA == 2 && blockSelectedA == true) { //if pressed twice in same spot
             lv2B2Y = 395;
             clickCountA = 0;
             blockSelectedA = false;
-            //place.play(1);
+            place.play(1);
           }
         } else if (lv2B1X == 150 && lv2B2X != 150 && lv2B3X == 150 && lv2B4X != 150) {
           if (clickCountA == 1 && blockSelectedA == false) {
             lv2B3Y = 175;
             blockSelectedA = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountA == 2 && blockSelectedA == false) {
             clickCountA = 0;
           } else if (clickCountA == 2 && blockSelectedA == true) { //if pressed twice in same spot
             lv2B3Y = 395;
             clickCountA = 0;
             blockSelectedA = false;
-            //place.play(1);
+            place.play(1);
           }
         } else if (lv2B1X == 150 && lv2B2X != 150 && lv2B3X != 150 && lv2B4X == 150) {
           if (clickCountA == 1 && blockSelectedA == false) {
             lv2B4Y = 175;
             blockSelectedA = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountA == 2 && blockSelectedA == false) {
             clickCountA = 0;
           } else if (clickCountA == 2 && blockSelectedA == true) { //if pressed twice in same spot
             lv2B4Y = 395;
             clickCountA = 0;
             blockSelectedA = false;
-           // place.play(1);
+            place.play(1);
           }
         } else if (lv2B1X != 150 && lv2B2X == 150 && lv2B3X == 150 && lv2B4X != 150) {
           if (clickCountA == 1 && blockSelectedA == false) {
             lv2B3Y = 175;
             blockSelectedA = true;
-     //       select.play(1);
+            select.play(1);
           } else if (clickCountA == 2 && blockSelectedA == false) {
             clickCountA = 0;
           } else if (clickCountA == 2 && blockSelectedA == true) { //if pressed twice in same spot
             lv2B3Y = 395;
             clickCountA = 0;
             blockSelectedA = false;
-         //   place.play(1);
+            place.play(1);
           }
         } else if (lv2B1X != 150 && lv2B2X == 150 && lv2B3X != 150 && lv2B4X == 150) {
           if (clickCountA == 1 && blockSelectedA == false) {
             lv2B4Y = 175;
             blockSelectedA = true;
-     //       select.play(1);
+            select.play(1);
           } else if (clickCountA == 2 && blockSelectedA == false) {
             clickCountA = 0;
           } else if (clickCountA == 2 && blockSelectedA == true) { //if pressed twice in same spot
             lv2B4Y = 395;
             clickCountA = 0;
             blockSelectedA = false;
-     //       place.play(1);
+            place.play(1);
           }
         } else if (lv2B1X != 150 && lv2B2X != 150 && lv2B3X == 150 && lv2B4X == 150) {
           if (clickCountA == 1 && blockSelectedA == false) {
             lv2B4Y = 175;
             blockSelectedA = true;
-      //      select.play(1);
+            select.play(1);
           } else if (clickCountA == 2 && blockSelectedA == false) {
             clickCountA = 0;
           } else if (clickCountA == 2 && blockSelectedA == true) { //if pressed twice in same spot
             lv2B4Y = 395;
             clickCountA = 0;
             blockSelectedA = false;
-   //         place.play(1);
+            place.play(1);
           }
         }
         //If POST #1 has 1 DISK
@@ -1933,53 +1933,53 @@ void mouseReleased() {
           if (clickCountA == 1 && blockSelectedA == false) {
             lv2B4Y = 175;
             blockSelectedA = true;
-        //    select.play(1);
+            select.play(1);
           } else if (clickCountA == 2 && blockSelectedA == false) {
             clickCountA = 0;
           } else if (clickCountA == 2 && blockSelectedA == true) { //if pressed twice in same spot
             lv2B4Y = 425;
             clickCountA = 0;
             blockSelectedA = false;
-        //    place.play(1);
+            place.play(1);
           }
         } else if (lv2B1X != 150 && lv2B2X != 150 && lv2B3X == 150 && lv2B4X != 150) {
           if (clickCountA == 1 && blockSelectedA == false) {
             lv2B3Y = 175;
             blockSelectedA = true;
-      //      select.play(1);
+            select.play(1);
           } else if (clickCountA == 2 && blockSelectedA == false) {
             clickCountA = 0;
           } else if (clickCountA == 2 && blockSelectedA == true) { //if pressed twice in same spot
             lv2B3Y = 425;
             clickCountA = 0;
             blockSelectedA = false;
-            //place.play(1);
+            place.play(1);
           }
         } else if (lv2B1X != 150 && lv2B2X == 150 && lv2B3X != 150 && lv2B4X != 150) {
           if (clickCountA == 1 && blockSelectedA == false) {
             lv2B2Y = 175;
             blockSelectedA = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountA == 2 && blockSelectedA == false) {
             clickCountA = 0;
           } else if (clickCountA == 2 && blockSelectedA == true) { //if pressed twice in same spot
             lv2B2Y = 425;
             clickCountA = 0;
             blockSelectedA = false;
-        //    place.play(1);
+            place.play(1);
           }
         } else if (lv2B1X == 150 && lv2B2X != 150 && lv2B3X != 150 && lv2B4X != 150) {
           if (clickCountA == 1 && blockSelectedA == false) {
             lv2B1Y = 175;
             blockSelectedA = true;
-       //     select.play(1);
+            select.play(1);
           } else if (clickCountA == 2 && blockSelectedA == false) {
             clickCountA = 0;
           } else if (clickCountA == 2 && blockSelectedA == true) { //if pressed twice in same spot
             lv2B1Y = 425;
             clickCountA = 0;
             blockSelectedA = false;
-        //    place.play(1);
+            place.play(1);
           }
         }
         //If post has no DISK
@@ -1998,14 +1998,14 @@ void mouseReleased() {
           if (clickCountB == 1 && blockSelectedB == false) {
             lv2B4Y = 175;
             blockSelectedB = true;
-    //        select.play(1);
+            select.play(1);
           } else if (clickCountB == 2 && blockSelectedB == false) {
             clickCountB = 0;
           } else if (clickCountB == 2 && blockSelectedB == true) { //if pressed twice in same spot
             lv2B4Y = 335;
             clickCountB = 0;
             blockSelectedB = false;
-     //       place.play(1);
+            place.play(1);
           }
         }
         //If POST #2 has 3 DISKS
@@ -2013,53 +2013,53 @@ void mouseReleased() {
           if (clickCountB == 1 && blockSelectedB == false) {
             lv2B3Y = 175;
             blockSelectedB = true;
-      //      select.play(1);
+            select.play(1);
           } else if (clickCountB == 2 && blockSelectedB == false) {
             clickCountB = 0;
           } else if (clickCountB == 2 && blockSelectedB == true) { //if pressed twice in same spot
             lv2B3Y = 365;
             clickCountB = 0;
             blockSelectedB = false;
-      //      place.play(1);
+            place.play(1);
           }
         } else if (lv2B1X == 400 && lv2B2X == 400 && lv2B3X != 400 && lv2B4X == 400) {
           if (clickCountB == 1 && blockSelectedB == false) {
             lv2B4Y = 175;
             blockSelectedB = true;
-   //         select.play(1);
+            select.play(1);
           } else if (clickCountB == 2 && blockSelectedB == false) {
             clickCountB = 0;
           } else if (clickCountB == 2 && blockSelectedB == true) { //if pressed twice in same spot
             lv2B4Y = 365;
             clickCountB = 0;
             blockSelectedB = false;
-     //       place.play(1);
+            place.play(1);
           }
         } else if (lv2B1X == 400 && lv2B2X != 400 && lv2B3X == 400 && lv2B4X == 400) {
           if (clickCountB == 1 && blockSelectedB == false) {
             lv2B4Y = 175;
             blockSelectedB = true;
-   //         select.play(1);
+            select.play(1);
           } else if (clickCountB == 2 && blockSelectedB == false) {
             clickCountB = 0;
           } else if (clickCountB == 2 && blockSelectedB == true) { //if pressed twice in same spot
             lv2B4Y = 365;
             clickCountB = 0;
             blockSelectedB = false;
-        //    place.play(1);
+            place.play(1);
           }
         } else if (lv2B1X != 400 && lv2B2X == 400 && lv2B3X == 400 && lv2B4X == 400) {
           if (clickCountB == 1 && blockSelectedB == false) {
             lv2B4Y = 175;
             blockSelectedB = true;
-     //       select.play(1);
+            select.play(1);
           } else if (clickCountB == 2 && blockSelectedB == false) {
             clickCountB = 0;
           } else if (clickCountB == 2 && blockSelectedB == true) { //if pressed twice in same spot
             lv2B4Y = 365;
             clickCountB = 0;
             blockSelectedB = false;
-      //      place.play(1);
+            place.play(1);
           }
         }
         //If POST #2 has 2 DISKS
@@ -2067,79 +2067,79 @@ void mouseReleased() {
           if (clickCountB == 1 && blockSelectedB == false) {
             lv2B2Y = 175;
             blockSelectedB = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountB == 2 && blockSelectedB == false) {
             clickCountB = 0;
           } else if (clickCountB == 2 && blockSelectedB == true) { //if pressed twice in same spot
             lv2B2Y = 395;
             clickCountB = 0;
             blockSelectedB = false;
-            //place.play(1);
+            place.play(1);
           }
         } else if (lv2B1X == 400 && lv2B2X != 400 && lv2B3X == 400 && lv2B4X != 400) {
           if (clickCountB == 1 && blockSelectedB == false) {
             lv2B3Y = 175;
             blockSelectedB = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountB == 2 && blockSelectedB == false) {
             clickCountB = 0;
           } else if (clickCountB == 2 && blockSelectedB == true) { //if pressed twice in same spot
             lv2B3Y = 395;
             clickCountB = 0;
             blockSelectedB = false;
-            //place.play(1);
+            place.play(1);
           }
         } else if (lv2B1X == 400 && lv2B2X != 400 && lv2B3X != 400 && lv2B4X == 400) {
           if (clickCountB == 1 && blockSelectedB == false) {
             lv2B4Y = 175;
             blockSelectedB = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountB == 2 && blockSelectedB == false) {
             clickCountB = 0;
           } else if (clickCountB == 2 && blockSelectedB == true) { //if pressed twice in same spot
             lv2B4Y = 395;
             clickCountB = 0;
             blockSelectedB = false;
-            //place.play(1);
+            place.play(1);
           }
         } else if (lv2B1X != 400 && lv2B2X == 400 && lv2B3X == 400 && lv2B4X != 400) {
           if (clickCountB == 1 && blockSelectedB == false) {
             lv2B3Y = 175;
             blockSelectedB = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountB == 2 && blockSelectedB == false) {
             clickCountB = 0;
           } else if (clickCountB == 2 && blockSelectedB == true) { //if pressed twice in same spot
             lv2B3Y = 395;
             clickCountB = 0;
             blockSelectedB = false;
-            //place.play(1);
+            place.play(1);
           }
         } else if (lv2B1X != 400 && lv2B2X == 400 && lv2B3X != 400 && lv2B4X == 400) {
           if (clickCountB == 1 && blockSelectedB == false) {
             lv2B4Y = 175;
             blockSelectedB = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountB == 2 && blockSelectedB == false) {
             clickCountB = 0;
           } else if (clickCountB == 2 && blockSelectedB == true) { //if pressed twice in same spot
             lv2B4Y = 395;
             clickCountB = 0;
             blockSelectedB = false;
-            //place.play(1);
+            place.play(1);
           }
         } else if (lv2B1X != 400 && lv2B2X != 400 && lv2B3X == 400 && lv2B4X == 400) {
           if (clickCountB == 1 && blockSelectedB == false) {
             lv2B4Y = 175;
             blockSelectedB = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountB == 2 && blockSelectedB == false) {
             clickCountB = 0;
           } else if (clickCountB == 2 && blockSelectedB == true) { //if pressed twice in same spot
             lv2B4Y = 395;
             clickCountB = 0;
             blockSelectedB = false;
-            //place.play(1);
+            place.play(1);
           }
         }
         //If POST #2 has 1 DISK
@@ -2147,53 +2147,53 @@ void mouseReleased() {
           if (clickCountB == 1 && blockSelectedB == false) {
             lv2B4Y = 175;
             blockSelectedB = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountB == 2 && blockSelectedB == false) {
             clickCountB = 0;
           } else if (clickCountB == 2 && blockSelectedB == true) { //if pressed twice in same spot
             lv2B4Y = 425;
             clickCountB = 0;
             blockSelectedB = false;
-            //place.play(1);
+            place.play(1);
           }
         } else if (lv2B1X != 400 && lv2B2X != 400 && lv2B3X == 400 && lv2B4X != 400) {
           if (clickCountB == 1 && blockSelectedB == false) {
             lv2B3Y = 175;
             blockSelectedB = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountB == 2 && blockSelectedB == false) {
             clickCountB = 0;
           } else if (clickCountB == 2 && blockSelectedB == true) { //if pressed twice in same spot
             lv2B3Y = 425;
             clickCountB = 0;
             blockSelectedB = false;
-            //place.play(1);
+            place.play(1);
           }
         } else if (lv2B1X != 400 && lv2B2X == 400 && lv2B3X != 400 && lv2B4X != 400) {
           if (clickCountB == 1 && blockSelectedB == false) {
             lv2B2Y = 175;
             blockSelectedB = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountB == 2 && blockSelectedB == false) {
             clickCountB = 0;
           } else if (clickCountB == 2 && blockSelectedB == true) { //if pressed twice in same spot
             lv2B2Y = 425;
             clickCountB = 0;
             blockSelectedB = false;
-            //place.play(1);
+            place.play(1);
           }
         } else if (lv2B1X == 400 && lv2B2X != 400 && lv2B3X != 400 && lv2B4X != 400) {
           if (clickCountB == 1 && blockSelectedB == false) {
             lv2B1Y = 175;
             blockSelectedB = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountB == 2 && blockSelectedB == false) {
             clickCountB = 0;
           } else if (clickCountB == 2 && blockSelectedB == true) { //if pressed twice in same spot
             lv2B1Y = 425;
             clickCountB = 0;
             blockSelectedB = false;
-            //place.play(1);
+            place.play(1);
           }
         }
         //If post has no DISK
@@ -2214,53 +2214,53 @@ void mouseReleased() {
           if (clickCountC == 1 && blockSelectedC == false) {
             lv2B3Y = 175;
             blockSelectedC = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountC == 2 && blockSelectedC == false) {
             clickCountC = 0;
           } else if (clickCountC == 2 && blockSelectedC == true) { //if pressed twice in same spot
             lv2B3Y = 365;
             clickCountC = 0;
             blockSelectedC = false;
-            //place.play(1);
+            place.play(1);
           }
         } else if (lv2B1X == 650 && lv2B2X == 650 && lv2B3X != 650 && lv2B4X == 650) {
           if (clickCountC == 1 && blockSelectedC == false) {
             lv2B4Y = 175;
             blockSelectedC = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountC == 2 && blockSelectedC == false) {
             clickCountC = 0;
           } else if (clickCountC == 2 && blockSelectedC == true) { //if pressed twice in same spot
             lv2B4Y = 365;
             clickCountC = 0;
             blockSelectedC = false;
-            //place.play(1);
+            place.play(1);
           }
         } else if (lv2B1X == 650 && lv2B2X != 650 && lv2B3X == 650 && lv2B4X == 650) {
           if (clickCountC == 1 && blockSelectedC == false) {
             lv2B4Y = 175;
             blockSelectedC = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountC == 2 && blockSelectedC == false) {
             clickCountC = 0;
           } else if (clickCountC == 2 && blockSelectedC == true) { //if pressed twice in same spot
             lv2B4Y = 365;
             clickCountC = 0;
             blockSelectedC = false;
-            //place.play(1);
+            place.play(1);
           }
         } else if (lv2B1X != 650 && lv2B2X == 650 && lv2B3X == 650 && lv2B4X == 650) {
           if (clickCountC == 1 && blockSelectedC == false) {
             lv2B4Y = 175;
             blockSelectedC = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountC == 2 && blockSelectedC == false) {
             clickCountC = 0;
           } else if (clickCountC == 2 && blockSelectedC == true) { //if pressed twice in same spot
             lv2B4Y = 365;
             clickCountC = 0;
             blockSelectedC = false;
-            //place.play(1);
+            place.play(1);
           }
         }
         //If POST #3 has 2 DISKS
@@ -2268,79 +2268,79 @@ void mouseReleased() {
           if (clickCountC == 1 && blockSelectedC == false) {
             lv2B2Y = 175;
             blockSelectedC = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountC == 2 && blockSelectedC == false) {
             clickCountC = 0;
           } else if (clickCountC == 2 && blockSelectedC == true) { //if pressed twice in same spot
             lv2B2Y = 395;
             clickCountC = 0;
             blockSelectedC = false;
-            //place.play(1);
+            place.play(1);
           }
         } else if (lv2B1X == 650 && lv2B2X != 650 && lv2B3X == 650 && lv2B4X != 650) {
           if (clickCountC == 1 && blockSelectedC == false) {
             lv2B3Y = 175;
             blockSelectedC = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountC == 2 && blockSelectedC == false) {
             clickCountC = 0;
           } else if (clickCountC == 2 && blockSelectedC == true) { //if pressed twice in same spot
             lv2B3Y = 395;
             clickCountC = 0;
             blockSelectedC = false;
-            //place.play(1);
+            place.play(1);
           }
         } else if (lv2B1X == 650 && lv2B2X != 650 && lv2B3X != 650 && lv2B4X == 650) {
           if (clickCountC == 1 && blockSelectedC == false) {
             lv2B4Y = 175;
             blockSelectedC = true;
-            //select.play(1);
+            select.play(1);
           } else if (clickCountC == 2 && blockSelectedC == false) {
             clickCountC = 0;
           } else if (clickCountC == 2 && blockSelectedC == true) { //if pressed twice in same spot
             lv2B4Y = 395;
             clickCountC = 0;
             blockSelectedC = false;
-            //place.play(1);
+            place.play(1);
           }
         } else if (lv2B1X != 650 && lv2B2X == 650 && lv2B3X == 650 && lv2B4X != 650) {
           if (clickCountC == 1 && blockSelectedC == false) {
             lv2B3Y = 175;
             blockSelectedC = true;
-          //  select.play(1);
+            select.play(1);
           } else if (clickCountC == 2 && blockSelectedC == false) {
             clickCountC = 0;
           } else if (clickCountC == 2 && blockSelectedC == true) { //if pressed twice in same spot
             lv2B3Y = 395;
             clickCountC = 0;
             blockSelectedC = false;
-         //   place.play(1);
+            place.play(1);
           }
         } else if (lv2B1X != 650 && lv2B2X == 650 && lv2B3X != 650 && lv2B4X == 650) {
           if (clickCountC == 1 && blockSelectedC == false) {
             lv2B4Y = 175;
             blockSelectedC = true;
-      //      select.play(1);
+            select.play(1);
           } else if (clickCountB == 2 && blockSelectedC == false) {
             clickCountC = 0;
           } else if (clickCountC == 2 && blockSelectedC == true) { //if pressed twice in same spot
             lv2B4Y = 395;
             clickCountC = 0;
             blockSelectedC = false;
-       //     place.play(1);
+            place.play(1);
           }
         } else if (lv2B1X != 650 && lv2B2X != 650 && lv2B3X == 650 && lv2B4X == 650) {
           if (clickCountC == 1 && blockSelectedC == false) {
             lv2B4Y = 175;
             blockSelectedC = true;
-       //     select.play(1);
+            select.play(1);
           } else if (clickCountC == 2 && blockSelectedC == false) {
             clickCountC = 0;
           } else if (clickCountC == 2 && blockSelectedC == true) { //if pressed twice in same spot
             lv2B4Y = 395;
             clickCountC = 0;
             blockSelectedC = false;
-       //     place.play(1);
+            place.play(1);
           }
         }
         //If POST #3 has 1 DISK
@@ -2348,53 +2348,53 @@ void mouseReleased() {
           if (clickCountC == 1 && blockSelectedC == false) {
             lv2B4Y = 175;
             blockSelectedC = true;
-      //      select.play(1);
+            select.play(1);
           } else if (clickCountC == 2 && blockSelectedC == false) {
             clickCountC = 0;
           } else if (clickCountC == 2 && blockSelectedC == true) { //if pressed twice in same spot
             lv2B4Y = 425;
             clickCountC = 0;
             blockSelectedC = false;
-      //      place.play(1);
+            place.play(1);
           }
         } else if (lv2B1X != 650 && lv2B2X != 650 && lv2B3X == 650 && lv2B4X != 650) {
           if (clickCountC == 1 && blockSelectedC == false) {
             lv2B3Y = 175;
             blockSelectedC = true;
-      //      select.play(1);
+            select.play(1);
           } else if (clickCountC == 2 && blockSelectedC == false) {
             clickCountC = 0;
           } else if (clickCountC == 2 && blockSelectedC == true) { //if pressed twice in same spot
             lv2B3Y = 425;
             clickCountC = 0;
             blockSelectedC = false;
-       //     place.play(1);
+            place.play(1);
           }
         } else if (lv2B1X != 650 && lv2B2X == 650 && lv2B3X != 650 && lv2B4X != 650) {
           if (clickCountC == 1 && blockSelectedC == false) {
             lv2B2Y = 175;
             blockSelectedC = true;
-     //       select.play(1);
+            select.play(1);
           } else if (clickCountC == 2 && blockSelectedC == false) {
             clickCountC = 0;
           } else if (clickCountC == 2 && blockSelectedC == true) { //if pressed twice in same spot
             lv2B2Y = 425;
             clickCountC = 0;
             blockSelectedC = false;
-       //     place.play(1);
+            place.play(1);
           }
         } else if (lv2B1X == 650 && lv2B2X != 650 && lv2B3X != 650 && lv2B4X != 650) {
           if (clickCountC == 1 && blockSelectedC == false) {
             lv2B1Y = 175;
             blockSelectedC = true;
-   //         select.play(1);
+            select.play(1);
           } else if (clickCountC == 2 && blockSelectedC == false) {
             clickCountC = 0;
           } else if (clickCountC == 2 && blockSelectedC == true) { //if pressed twice in same spot
             lv2B1Y = 425;
             clickCountC = 0;
             blockSelectedC = false;
-    //        place.play(1);
+            place.play(1);
           }
         }
         //If post has no DISK
@@ -2597,28 +2597,28 @@ void blockPlacement() {
           lv1B3Y = 176; 
           lv1B3X = 150;
           movesTaken++;
-    //      place.play(1);
+          place.play(1);
         } else if (lv1B2Y == 175) {
           if (lv1B3X == 150) {
             clickCountC++;
             blockSelectedC = true;
-   //         error.play(1);
+            error.play(1);
           } else {
             lv1B2Y = 176;
             lv1B2X = 150;
             movesTaken++;
-     //       place.play(1);
+            place.play(1);
           }
         } else if (lv1B1Y == 175) {
           if (lv1B2X == 150 || lv1B3X == 150) {
             clickCountC++;
             blockSelectedC = true;
-     //       error.play(1);
+            error.play(1);
           } else {
             lv1B1Y = 176; 
             lv1B1X = 150;
             movesTaken++;
-  //          place.play(1);
+            place.play(1);
           }
         }
       }
@@ -2628,28 +2628,28 @@ void blockPlacement() {
           lv1B3Y = 176;  
           lv1B3X = 400;
           movesTaken++;
-   //       place.play(1);
+          place.play(1);
         } else if (lv1B2Y == 175) {
           if (lv1B3X == 400) {
             clickCountC++;
             blockSelectedC = true;
-     //       error.play(1);
+            error.play(1);
           } else {
             lv1B2Y = 176;  
             lv1B2X = 400;
             movesTaken++;
-     //       place.play(1);
+            place.play(1);
           }
         } else if (lv1B1Y == 175) {
           if (lv1B2X == 400 || lv1B3X == 400) {
             clickCountC++;
             blockSelectedC = true;
-    //        error.play(1);
+            error.play(1);
           } else {
             lv1B1Y = 176;  
             lv1B1X = 400;
             movesTaken++;
-     //       place.play(1);
+            place.play(1);
           }
         }
       }
@@ -2664,40 +2664,40 @@ void blockPlacement() {
           lv2B4Y = 176;
           lv2B4X = 400;
           movesTaken++;
-      //    place.play(1);
+          place.play(1);
         } else if (lv2B3Y == 175) {
           if (lv2B4X == 400) {
             clickCountA++;
             blockSelectedA = true;
-   //         error.play(1);
+            error.play(1);
           } else {
             lv2B3Y = 176;  // This changes the y-coordinate, so the code in draw formats the blocks in the correct order, depending on size and position
             lv2B3X = 400;   
             movesTaken++;
-     //       place.play(1);
+            place.play(1);
           }
         } else if (lv2B2Y == 175) {
           //ENFORCES GAME RULE (can only place smaller DISKS on bigger DISKS)
           if (lv2B4X == 400 || lv2B3X == 400) {
             clickCountA++;
             blockSelectedA = true;
-      //      error.play(1);
+            error.play(1);
           } else {
             lv2B2Y = 176; 
             lv2B2X = 400;
             movesTaken++;
-        //    place.play(1);
+            place.play(1);
           }
         } else if (lv2B1Y == 175) {
           if (lv2B4X == 400 || lv2B3X == 400 || lv2B2X == 400) {
             clickCountA++;
             blockSelectedA = true;
-    //        error.play(1);
+            error.play(1);
           } else {
             lv2B1Y = 176; 
             lv2B1X = 400;
             movesTaken++;
-    //        place.play(1);
+            place.play(1);
           }
         }
       }
@@ -2707,39 +2707,39 @@ void blockPlacement() {
           lv2B4Y = 176;
           lv2B4X = 650;
           movesTaken++;
-    //      place.play(1);
+          place.play(1);
         } else if (lv2B3Y == 175) {
           if (lv2B4X == 650) {
             clickCountA++;
             blockSelectedA = true;
-    //        error.play(1);
+            error.play(1);
           } else {
             lv2B3Y = 176; 
             lv2B3X = 650;
             movesTaken++;
-     //       place.play(1);
+            place.play(1);
           }
         } else if (lv2B2Y == 175) {
           if (lv2B4X == 650 || lv2B3X == 650) {
             clickCountA++;
             blockSelectedA = true;
-      //      error.play(1);
+            error.play(1);
           } else {
             lv2B2Y = 176;  
             lv2B2X = 650;
             movesTaken++;
-     //       place.play(1);
+            place.play(1);
           }
         } else if (lv2B1Y == 175) {
           if (lv2B4X == 650 || lv2B3X == 650 || lv2B2X == 650 ) {
             clickCountA++;
             blockSelectedA = true;
-     //       error.play(1);
+            error.play(1);
           } else {
             lv2B1Y = 176; 
             lv2B1X = 650;
             movesTaken++;
-    //        place.play(1);
+            place.play(1);
           }
         }
       }
@@ -2752,40 +2752,40 @@ void blockPlacement() {
           lv2B4X = 150;
           lv2B4Y = 176;
           movesTaken++;
-   //       place.play(1);
+          place.play(1);
         } else if (lv2B3Y == 175) {
           if (lv2B4X == 150) {
             clickCountB++;
             blockSelectedB = true;
-    //        error.play(1);
+            error.play(1);
           } else {
             lv2B3Y = 176; 
             lv2B3X = 150;
             movesTaken++;
-    //        place.play(1);
+            place.play(1);
           }
         } else if (lv2B2Y == 175) {
           if (lv2B4X == 150 || lv2B3X == 150) {
             clickCountB++;
             blockSelectedB = true;
-     //       error.play(1);
+            error.play(1);
           } else {
             lv2B2Y = 176;  
             lv2B2X = 150;
             movesTaken++;
-       //     place.play(1);
+            place.play(1);
           }
         } else if (lv2B1Y == 175) {
           if (lv2B4X == 150 || lv2B3X == 150 || lv2B2X == 150) {
 
             clickCountB++;
             blockSelectedB = true;
-   //         error.play(1);
+            error.play(1);
           } else {
             lv2B1Y = 176; 
             lv2B1X = 150;
             movesTaken++;
-    //        place.play(1);
+            place.play(1);
           }
         }
       }
@@ -2795,39 +2795,39 @@ void blockPlacement() {
           lv2B4Y = 176;
           lv2B4X = 650;
           movesTaken++;
-    //      place.play(1);
+          place.play(1);
         } else if (lv2B3Y == 175) {
           if (lv2B4X == 650) {
             clickCountB++;
             blockSelectedB = true;
-    //        error.play(1);
+            error.play(1);
           } else {
             lv2B3Y = 176; 
             lv2B3X = 650;
             movesTaken++;
-    //        place.play(1);
+            place.play(1);
           }
         } else if (lv2B2Y == 175) {
           if (lv2B4X == 650 || lv2B3X == 650) {
             clickCountB++;
             blockSelectedB = true;
-   //         error.play(1);
+            error.play(1);
           } else {
             lv2B2Y = 176; 
             lv2B2X = 650;
             movesTaken++;
-   //         place.play(1);
+            place.play(1);
           }
         } else if (lv2B1Y == 175) {
           if (lv2B4X == 650 || lv2B3X == 650 || lv2B2X == 650) {
             clickCountB++;
             blockSelectedB = true;
-     //       error.play(1);
+            error.play(1);
           } else {
             lv2B1Y = 176; 
             lv2B1X = 650;
             movesTaken++;
-      //      place.play(1);
+            place.play(1);
           }
         }
       }
@@ -2840,39 +2840,39 @@ void blockPlacement() {
           lv2B4Y = 176; 
           lv2B4X = 150;
           movesTaken++;
-    //      place.play(1);
+          place.play(1);
         } else if (lv2B3Y == 175) {
           if (lv2B4X == 150) {
             clickCountC++;
             blockSelectedC = true;
-   //         error.play(1);
+            error.play(1);
           } else {
             lv2B3Y = 176;  
             lv2B3X = 150;
             movesTaken++;
-  //          place.play(1);
+            place.play(1);
           }
         } else if (lv2B2Y == 175) {
           if (lv2B4X == 150 || lv2B3X == 150) {
             clickCountC++;
             blockSelectedC = true;
-  //          error.play(1);
+            error.play(1);
           } else {
             lv2B2Y = 176; 
             lv2B2X = 150;
             movesTaken++;
-    //        place.play(1);
+            place.play(1);
           }
         } else if (lv2B1Y == 175) {
           if (lv2B4X == 150 || lv2B3X == 150 || lv2B2X == 150 ) {
             clickCountC++;
             blockSelectedC = true;
-     //       error.play(1);
+            error.play(1);
           } else {
             lv2B1Y = 176;  
             lv2B1X = 150;
             movesTaken++;
-    //        place.play(1);
+            place.play(1);
           }
         }
       }
@@ -2882,39 +2882,39 @@ void blockPlacement() {
           lv2B4Y = 176;  
           lv2B4X = 400;
           movesTaken++;
-    //      place.play(1);
+          place.play(1);
         } else if (lv2B3Y == 175) {
           if (lv2B4X == 400) {
             clickCountC++;
             blockSelectedC = true;
-   //         error.play(1);
+            error.play(1);
           } else {
             lv2B3Y = 176;  
             lv2B3X = 400;
             movesTaken++;
-      //      place.play(1);
+            place.play(1);
           }
         } else if (lv2B2Y == 175) {
           if (lv2B4X == 400 || lv2B3X == 400) {
             clickCountC++;
             blockSelectedC = true;
-     //       error.play(1);
+            error.play(1);
           } else {
             lv2B2Y = 176;  
             lv2B2X = 400;
             movesTaken++;
-    //        place.play(1);
+            place.play(1);
           }
         } else if (lv2B1Y == 175) {
           if (lv2B4X == 400 ||lv2B3X == 400 || lv2B2X == 400 ) {
             clickCountC++;
             blockSelectedC = true;
-       //     error.play(1);
+            error.play(1);
           } else {
             lv2B1Y = 176; 
             lv2B1X = 400;
             movesTaken++;
-       //     place.play(1);
+            place.play(1);
           }
         }
       }
